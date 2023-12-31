@@ -1,0 +1,114 @@
+@charset "UTF=8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Outfit:wght@400;700&display=swap');
+
+
+*{
+   margin: 0px;
+   padding: 0;
+   box-sizing: border-box;
+   text-align: center;
+   font-family: Montserrat;
+}
+
+body {
+   background-color: gray;
+}
+
+h1{
+   font-size: 35px;
+}
+
+p{
+   font-size: 30px;
+   margin: 10px;
+}
+
+#tentativas{
+   width: 100%;
+   height: 25px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.tentativa{
+   background-color: white;
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   border: black solid 2px;
+}
+
+button{
+   margin: 10px;
+   font-size: 20px;
+   padding: 8px;
+   border-radius: 8px;
+   border: 3px solid black;
+   transition: all 3ms;
+}
+
+#acerto{
+   background-color: rgb(139, 239, 139);
+}
+
+#maior, #menor{
+   background-color: rgb(244, 122, 122);
+}
+
+button:hover{
+   color: black;
+   background-color: white;
+   transform: scale(.90);
+}
+
+button:active{
+   color: yellow;
+}
+
+img{
+   height: 50%;
+}
+
+.ativo{
+   opacity: 0;
+   pointer-events: none;
+   transition: all 3ms;
+}
+
+#modal{
+   margin: 0;
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0.655);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+      
+}
+
+#cont-modal{
+   background-color: white;
+   width: 50%;
+   height: 50%;
+   border-radius: 12px;
+   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.613);
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+@media (max-width: 768px) {
+   div#cont-modal{
+      width: 100%;
+      height: 100%;
+   }
+}
+

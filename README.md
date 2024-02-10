@@ -6,7 +6,7 @@
 
 ## Usando <Akinumber>
 
-Para usar <Akinumber>   [clique aqui!!!!]("https://vinipet.github.io/akinumber")
+Para usar <Akinumber>   [clique aqui!!!!](https://vinipet.github.io/akinumber)
 
 ## 📝 Licença
 
